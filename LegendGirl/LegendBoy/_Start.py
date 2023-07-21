@@ -16,7 +16,7 @@ else:
     START_PIC = "https://te.legra.ph/file/33eb719b6aa1aac7e71c3.jpg"
 
 
-@Client.on_message(filters.command(["start"], prefixes=HANDLER))
+@Client.on_message(filters.command(["tart"], prefixes=HANDLER))
 async def _start(Legend: Client, message: Message):
     global START_MESSAGE
     my_detail = await Legend.get_me()
